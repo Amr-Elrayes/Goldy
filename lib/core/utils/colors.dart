@@ -1,0 +1,12 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const Color primaryColor = Color(0xffeec430);
+  static const Color secondryColor = Color(0xffC0C0C0);
+  static const Color jobCardColor = Color(0xffFAFAFA);
+  static const Color darkColor = Color(0xff121212);
+  static const Color bgColor = Color(0xffF2F2F2);
+  static const Color grayColor = Color(0xffB4AAAA);
+  static const Color softgrayColor = Color(0xffD9D9D9);
+  static const Color redColor = Colors.red;
+}
