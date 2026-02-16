@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:goldy/core/networking/dio_helper.dart';
 import 'package:goldy/core/routes/app_router.dart';
 import 'package:goldy/core/routes/routes.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await DioHelper.init();
   runApp(const MyApp());
 }
 
